@@ -10,7 +10,7 @@
 <div class="container">
     <h2>Email Confirmation</h2>
     <form method="post" action="/confirm-email.php">
-        <label for="confirmation_code">Enter Confirmation Code:</label>
+        <label for="confirmation_code">Enter code:</label>
         <input type="text" id="confirmation_code" name="confirmation_code" required>
         <input type="hidden" name="user_id" value="<?php echo htmlspecialchars($userId); ?>">
         <button type="submit" name="submit">Confirm</button>
